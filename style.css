@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d9d9d9;
+}
+header{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+   
+    justify-items: space-between;
+    align-items: center;
+    background-color: white;
+  
+  
+}
+
+ul{
+    display: flex;
+}
+header > .menu >ul > li {
+    list-style-type:none;
+    margin-left: 50px;
+    color:black;
+}
+.menu{
+    margin-right:150px ;
+}
+
+ .last {
+    margin-left:100px;
+ }
+ .last> ul> 
+ { 
+   list-style-type:none;
+   display: flex;
+ }
+ .last> ul> li
+ { 
+   
+    list-style-type:none;
+   display: flex;
+ }
+ a{
+    text-decoration: none;
+    gap: 50px;
+    color: black;
+    font-size: 20px;
+
+ } 
+ .container{
+    width: 80%;
+    background-color: white;
+    margin: 3px auto;
+    height: 10000px;
+    position: relative;
+  
+    
+ }
+ .container > a{
+    margin: 20px  0 0;
+    text-decoration: none;
+    gap: 50px;
+    
+ }
+ .container > ul >li {
+    margin: 10px 20px;
+    list-style-type: none;
+ }
+ .para >a{
+  
+    text-align: center;
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 25px;
+ }
+ .para { 
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 80px;
+    margin-left: 350px;
+
+}
+.graph{
+    text-align:left;
+    font-size: 20px;
+    margin-left: 360px;
+    margin-bottom: 80px;
+}
+.box{
+    width: 60%;
+    height: 80vh;
+    float: right;
+    background-color: #fbffa7;
+}
+.box> img{
+    margin-top: 220px;
+    margin-left: 300px;
+  
+}
+h6{
+    margin-left:400px;
+    font-size: 15px;
+}
+.box2{
+    width: 60%;
+    height: 90vh;
+    background-color: #b6ffc0;
+}
+.green{
+    width:450px;
+    margin-left: 220px;
+    margin-top:70px;
+}
+.hi{
+    margin-left: 800px;
+    margin-top:-250px;
+    height: 570px;
+    width: 550px;
+}
+
+.first  
+{
+    height:800px;
+     width:1250px;
+     
+}
+.second{
+    margin: 50px 150px;
+    height:650px;
+     width:1200px;
+}
+.box3{
+    margin: 50px 250px;
+    height:900px;
+    width: 65%;
+    background-color: #d5b3ff;
+
+}
+.img1{
+    margin-top: 200px;
+    height: 350px;
+    width: 350px;
+    margin-left: -150px;
+}
+.img2{
+    height: 500px;
+    width: 500px;
+    margin-right:-50;
+    margin-top: 200px;
+}
